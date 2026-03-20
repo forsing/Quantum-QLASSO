@@ -17,8 +17,8 @@ np.random.seed(SEED)
 random.seed(SEED)
 algorithm_globals.random_seed = SEED
 
-CSV_DRAWN = "/Users/4c/Desktop/GHQ/data/loto7hh_4582_k22.csv"
-CSV_ALL   = "/Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv"
+CSV_DRAWN = "/data/loto7hh_4582_k22.csv"
+CSV_ALL   = "/data/kombinacijeH_39C7.csv"
 
 MIN_VAL = [1, 2, 3, 4, 5, 6, 7]
 MAX_VAL = [33, 34, 35, 36, 37, 38, 39]
@@ -153,7 +153,7 @@ if __name__ == "__main__":
 
 
 """
-Ucitano izvucenih kombinacija: 4580
+Ucitano izvucenih kombinacija: 4582
 Graf svih kombinacija: /Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv
   Primer: [1, 2, 3, 4, 5, 6, 7] ... [1, 2, 3, 4, 5, 6, 9]
 
@@ -164,19 +164,14 @@ Graf svih kombinacija: /Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv
   Poz 1 [1-33]: nenula=29/32  1:0.161 | 2:0.140 | 3:0.124
   Poz 2 [2-34]: nenula=28/32  8:0.087 | 5:0.077 | 9:0.076
   Poz 3 [3-35]: nenula=31/32  13:0.065 | 12:0.064 | 14:0.062
-  Poz 4 [4-36]: nenula=29/32  23:0.065 | 21:0.065 | 18:0.064
+  Poz 4 [4-36]: nenula=29/32  21:0.065 | 23:0.065 | 18:0.064
   Poz 5 [5-37]: nenula=31/32  29:0.066 | 26:0.064 | 27:0.063
   Poz 6 [6-38]: nenula=31/32  33:0.085 | 32:0.083 | 35:0.081
-  Poz 7 [7-39]: nenula=30/32  7:0.185 | 38:0.154 | 37:0.134
+  Poz 7 [7-39]: nenula=30/32  7:0.185 | 38:0.155 | 37:0.134
 
 ==================================================
 Predikcija (QLASSO, deterministicki, seed=39):
-[1, 8, 13, 23, 29, 33, 38]
-==================================================
-
-==================================================
-Predikcija (QLASSO, deterministicki, seed=39):
-[1, 8, 13, 23, 29, 33, 38]
+[1, 8, x, y, z, 33, 38]
 ==================================================
 """
 
